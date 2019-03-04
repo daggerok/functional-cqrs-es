@@ -7,6 +7,18 @@ Functional (not production ready at all!) library to build simple EventSourcing 
 
 ## TODO
 
+- _Implement_ `Command`(s) and `Event`(s)
+- _Implement_ `Aggregate`
+- _Override_ `handle` and `on` methods og the `Aggregate`
+- _Bootstrap_ application context with `Configurer`
+- _Register_ creation `Command` for an `Aggregate`
+
+::: tip
+See `samples/aggregate` example project for details
+:::
+
+<!--
+
 _Aggregate implementation sample_
 
 ```java
@@ -27,6 +39,8 @@ class MyAggregate implements Aggregate<UUID> {
     }
 }
 ```
+
+-->
 
 ## build
 

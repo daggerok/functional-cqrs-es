@@ -1,6 +1,6 @@
 {
   "name": "functional-cqrs-es",
-  "version": "1.0.0-SNAPSHOT",
+  "version": "1.0.1-SNAPSHOT",
   "description": "Postgres TestContainers Gradle Plugin Kotlin DSL",
   "main": "index.js",
   "scripts": {
